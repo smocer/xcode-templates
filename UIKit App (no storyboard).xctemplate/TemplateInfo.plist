@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>smocer.singleViewAppWithoutStoryboard</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+		<string>com.apple.dt.unit.sceneLifecycleApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a single view. It provides a view controller to manage the view.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>NameOfInitialFileForEditor</key>
+	<string>___VARIABLE_rootViewControllerName___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>rootViewControllerName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Root View Controller Class:</string>
+			<key>Description</key>
+			<string>Class name of the root view controller</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>RootViewController</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>___VARIABLE_rootViewControllerName___.swift:comments</string>
+						<string>___VARIABLE_rootViewControllerName___.swift:imports:importCocoa</string>
+						<string>___VARIABLE_rootViewControllerName___.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+						<string>___VARIABLE_rootViewControllerName___.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+						<string>___VARIABLE_rootViewControllerName___.swift:implementation:methods:viewDidLoad:super</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>ContentView.swift</key>
+						<string>/// Delete this file. It is inherited from the default SwiftUI Xcode project template.</string>
+						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions</key>
+						<string></string>
+						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<string></string>
+						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:comments</key>
+						<string></string>
+						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:return</key>
+						<string></string>
+						<key>AppDelegate.swift:implementation:methods:applicationdidDiscardSceneSessions</key>
+						<string></string>
+						<key>AppDelegate.swift:implementation:methods:applicationdidDiscardSceneSessions:comment</key>
+						<string></string>
+						<key>AppDelegate.swift:implementation:methods:applicationdidDiscardSceneSessions:body</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneDidDisconnect</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneDidDisconnect:comments</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneDidBecomeActive</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneDidBecomeActive:comments</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneWillResignActive</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneWillResignActive:comments</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneWillEnterForeground</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneWillEnterForeground:comments</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneDidEnterBackground</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneDidEnterBackground:comments</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:comments</key>
+						<string></string>
+						<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
+						<string>
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: windowScene)
+        let rootVC = ___VARIABLE_rootViewControllerName___()
+        window?.rootViewController = rootVC
+        window?.makeKeyAndVisible()
+						</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Image</key>
+	<dict>
+		<key>BundleImageName</key>
+		<string>app</string>
+		<key>BundleIdentifier</key>
+		<string>com.apple.dt.IDEKit</string>
+	</dict>
+</dict>
+</plist>
