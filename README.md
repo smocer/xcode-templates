@@ -2,7 +2,8 @@
 1. Download the template file
 2. Move it to `~/Library/Developer/Xcode/Templates/Project Templates/` folder:
 ```bash
-mv UIKit\ App\ (no\ storyboard).xctemplate ~/Library/Developer/Xcode/Templates/Project\ Templates/UIKit\ App\ (no\ storyboard).xctemplate
+# assuming that you are currently in the directory with the downloaded template
+mkdir -p ~/Library/Developer/Xcode/Templates/Project\ Templates; mv UIKit\ App\ \(no\ storyboard\).xctemplate $_
 ```
 3. Now it should be available in the Xcode menu: File -> New -> Project under the "Project Templates" category.
 
